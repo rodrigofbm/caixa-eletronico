@@ -22,6 +22,7 @@ namespace Banco {
             Cliente cliente2 = new Cliente("Diego");
             this.AdicionaConta(new ContaCorrente(cliente));
             this.AdicionaConta(new ContaPoupanca(cliente2));
+            this.contas[0].Deposita(1000);
 
             //ContaPoupanca conta = new ContaPoupanca(cliente, 3);
             //conta.Deposita(200.0);
@@ -71,6 +72,11 @@ namespace Banco {
         private void BtnNovaConta_Click(object sender, EventArgs e) {
             FormCadastrarConta formCadastrarConta = new FormCadastrarConta(this);
             formCadastrarConta.ShowDialog();
+        }
+
+        private void BtnRelatorios_Click(object sender, EventArgs e) {
+            FormRelatorios formRelatorios = new FormRelatorios(this.contas);
+            formRelatorios.ShowDialog();
         }
     }
 }

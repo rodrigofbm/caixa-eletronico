@@ -32,7 +32,7 @@ namespace Caelum.Banco.Contas {
 
         // override object.Equals
         public override bool Equals(object obj) {
-            if(!(obj is Conta)) {
+            if (!(obj is Conta)) {
                 return false;
             }
 

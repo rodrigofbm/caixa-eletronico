@@ -43,6 +43,7 @@
             this.gBoxBuscar = new System.Windows.Forms.GroupBox();
             this.cBoxBusca = new System.Windows.Forms.ComboBox();
             this.btnNovaConta = new System.Windows.Forms.Button();
+            this.btnRelatorios = new System.Windows.Forms.Button();
             this.gBoxConta.SuspendLayout();
             this.gBoxOperacoes.SuspendLayout();
             this.gBoxBuscar.SuspendLayout();
@@ -181,7 +182,7 @@
             // 
             // btnNovaConta
             // 
-            this.btnNovaConta.Location = new System.Drawing.Point(171, 450);
+            this.btnNovaConta.Location = new System.Drawing.Point(29, 450);
             this.btnNovaConta.Name = "btnNovaConta";
             this.btnNovaConta.Size = new System.Drawing.Size(75, 23);
             this.btnNovaConta.TabIndex = 13;
@@ -189,11 +190,22 @@
             this.btnNovaConta.UseVisualStyleBackColor = true;
             this.btnNovaConta.Click += new System.EventHandler(this.BtnNovaConta_Click);
             // 
+            // btnRelatorios
+            // 
+            this.btnRelatorios.Location = new System.Drawing.Point(132, 450);
+            this.btnRelatorios.Name = "btnRelatorios";
+            this.btnRelatorios.Size = new System.Drawing.Size(75, 23);
+            this.btnRelatorios.TabIndex = 14;
+            this.btnRelatorios.Text = "Relatórios";
+            this.btnRelatorios.UseVisualStyleBackColor = true;
+            this.btnRelatorios.Click += new System.EventHandler(this.BtnRelatorios_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(258, 485);
+            this.Controls.Add(this.btnRelatorios);
             this.Controls.Add(this.btnNovaConta);
             this.Controls.Add(this.gBoxBuscar);
             this.Controls.Add(this.gBoxOperacoes);
@@ -229,6 +241,7 @@
         private System.Windows.Forms.GroupBox gBoxBuscar;
         private System.Windows.Forms.ComboBox cBoxBusca;
         private System.Windows.Forms.Button btnNovaConta;
+        private System.Windows.Forms.Button btnRelatorios;
     }
 }
 

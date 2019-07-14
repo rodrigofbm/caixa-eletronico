@@ -19,3 +19,4 @@ C:\Users\rodri\source\repos\Banco\Banco\obj\Debug\Banco.csproj.CoreCompileInputs
 C:\Users\rodri\source\repos\Banco\Banco\obj\Debug\Banco.exe
 C:\Users\rodri\source\repos\Banco\Banco\obj\Debug\Banco.pdb
 C:\Users\rodri\source\repos\Banco\Banco\obj\Debug\Banco.FormCadastrarConta.resources
+C:\Users\rodri\source\repos\Banco\Banco\obj\Debug\Banco.FormRelatorios.resources
